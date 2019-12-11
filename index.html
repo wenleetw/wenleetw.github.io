@@ -4,14 +4,45 @@
     <meta charset="WTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Monoton|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>GitHub Pages</title>
+    <style>
+      body,html{height:100%;}
+      body { background-color:#353a40;font-family: 'Ubuntu', sans-serif;}
+      ul {list-style-type: none;}
+      .Monoton {font-family: 'Monoton', cursive;color:aliceblue;}
+      .Ubuntu {font-family: 'Ubuntu', sans-serif;}
+      .card {border:none;box-shadow: 0 2px 4px 0 rgba(255,255,255,.5);}
+    </style>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
-    <ul>
-      <li><a href="https://wenleetw.github.io/web-apps/" title="web apps">Web Apps</a></li>
-      <li><a href="https://wenleetw.github.io/react-app/" title="web apps">feeds</a></li>
-    </ul>
+    <div class="container h-100">
+      <div class="row h-100 justify-content-center align-items-center py-5">
+        <div class="col-12 text-center">
+          <h1 class="Monoton">WEB&nbsp;&nbsp;&nbsp;&nbsp;TOOLS</h1>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <img src="https://picsum.photos/seed/photos/400/200" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Photo Feeds</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://wenleetw.github.io/react-app/" class="btn btn-warning">Go Use It</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <img src="https://picsum.photos/400/200?random&img=2" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Todo List</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="https://wenleetw.github.io/web-apps/" class="btn btn-warning">Go Use It</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
